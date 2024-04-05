@@ -1,0 +1,637 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#Banner {
+  height: 100vh;
+  display: flex;
+
+  background-image: url(./asset/Backgound1.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  background-color: #30235fc7;
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+title {
+  font-weight: 300;
+  color: cyan;
+}
+.container {
+  width: 780px;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  position: absolute;
+  display: flex;
+  background-color: #0000 !important;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.container-fluid {
+  align-items: center;
+}
+.conf {
+  justify-content: end;
+}
+.collapse {
+  justify-content: end;
+}
+#mainnav {
+  height: 100%;
+  width: 100vw;
+}
+.concons {
+  width: 780px;
+}
+
+/* ------------banner-------------- */
+#Banner h1 {
+  color: white;
+  font-family: "Playfair Display SC", serif;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#Banner p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+}
+#Banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conban {
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  color: cyan;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-color: cyan;
+}
+.btn:hover {
+  background-color: lightblue;
+  color: black;
+  border-color: lightblue;
+}
+.actives {
+  color: cyan;
+}
+.heads {
+  color: white;
+}
+/* -----------story------ */
+#Story {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#Story img {
+  width: 100%;
+  height: 100%;
+}
+.textcon {
+  width: 35%;
+}
+.sent {
+  padding-left: 10px;
+  width: 65%;
+}
+.roconstor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.constor {
+  width: 780px;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* ------vid---- */
+#vid {
+  background-image: url(./asset/Background2.png);
+  height: 70vh;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-color: #30235fc7;
+  background-blend-mode: overlay;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  height: 100px;
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: white solid;
+  border-radius: 50%;
+  margin: auto;
+}
+#vid p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.containerVid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 780px;
+}
+/* -------------expert-------- */
+#expert {
+  height: 100%;
+  align-items: center;
+  display: flex;
+
+  justify-content: center;
+}
+#expert h2 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 32px;
+  font-weight: 400;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#expert p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.conEx {
+  align-items: center;
+  width: 780px;
+  justify-content: center;
+}
+.short {
+  height: 5px;
+  width: 50px;
+  margin: auto;
+}
+.icon {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  height: 70px;
+}
+#expert h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+#expert p {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.container2 {
+  margin: 10px;
+}
+/* ----------team----------- */
+#team {
+  background-image: url(./asset/Background3.png);
+  height: 100%;
+  display: flex;
+
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  background-color: #30235fc7;
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+.conTeam {
+  width: 780px;
+  height: 100%;
+}
+
+#team h2 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+.dis {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Playfair Display SC", serif;
+}
+.box {
+  border: gray solid 1px;
+  justify-content: center;
+  margin: auto;
+  width: 163px;
+}
+#team img {
+  height: 170px;
+  align-items: baseline;
+}
+.imgcon {
+  width: 100%;
+  flex-wrap: wrap;
+}
+#team h4 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  align-items: baseline;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.pos {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 13px;
+
+  font-weight: 300;
+}
+.concon {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.las {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 14px;
+  padding-top: 70px;
+  font-weight: 300;
+}
+.btnL {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+/* ---------------works */
+#shortsec {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.conshort {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contxts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conste {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+
+  width: 780px;
+}
+.left {
+  margin: auto 0 auto 0;
+  align-self: start;
+  display: flex;
+  justify-content: center;
+}
+.right {
+  display: flex;
+  justify-content: end;
+  justify-content: center;
+  align-items: center;
+}
+.dribble {
+  font-family: "Roboto", sans-serif;
+  color: gray;
+  align-items: baseline;
+  font-size: 14px;
+}
+.congrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0px;
+}
+#shortsec img {
+  width: 100%;
+  height: 100%;
+}
+.btn3 {
+  margin-top: 30px;
+}
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* --------------testi------ */
+#ceo {
+  height: 100%;
+  color: white;
+  display: flex;
+  background-image: url(./asset/Background4.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  background-color: #30235fc7;
+  background-blend-mode: overlay;
+  background-size: cover;
+  margin-top: 30px;
+}
+.containerceo {
+  width: 780px;
+}
+.qu {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+  justify-content: center;
+  display: flex;
+}
+.tex {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Playfair Display SC", serif;
+}
+.name {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.teng {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+.imgcon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.imgper {
+  height: 50px;
+  margin: 15px;
+  transition: ease-out 0.4ms;
+}
+.back {
+  height: 30px;
+  margin: auto 0 auto 0;
+}
+.for {
+  height: 30px;
+  margin: auto 0 auto 0;
+}
+
+.imgper:hover {
+  transform: scale(1.4);
+  transform-origin: center;
+}
+/* ------------contact---------- */
+#contact {
+  height: 75%;
+  display: flex;
+  justify-content: center;
+}
+#name,
+#mail,
+#sub {
+  margin: 20px 20px 20px 0;
+  width: 100%;
+  display: block;
+}
+.mess {
+  resize: none;
+  width: 100%;
+}
+
+.conimg {
+  display: grid;
+  column-gap: 35px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.logos {
+  height: fit-content;
+  width: fit-content;
+  margin: 20px;
+}
+.happy,
+.news {
+  font-size: 22px;
+  font-family: "Playfair Display SC", serif;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.container3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.conform {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  margin-left: 1%;
+  flex-wrap: wrap;
+}
+.btn {
+  display: block;
+}
+/* ------------footer----------- */
+#foot {
+  height: 50vh;
+  color: white;
+  display: flex;
+  background-image: url(./asset/Background5.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  background-color: #30235fc7;
+  background-blend-mode: overlay;
+  background-size: cover;
+  width: 100%;
+}
+.containefotr {
+  width: 780px;
+}
+#foot a {
+  color: white;
+}
+.plane {
+  height: 15px;
+}
+.btns {
+  width: 200px;
+  opacity: 0.5;
+  background-color: white;
+}
+.conall {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row: auto;
+}
+.conbot {
+  display: flex;
+  justify-content: space-between;
+}
+.forms {
+  width: 200px;
+}
+
+.all {
+  justify-content: space-between;
+}
+.col1,
+.col2,
+.col3 {
+  width: 250px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 14px;
+}
+#foot h5 {
+  margin: auto;
+  height: 50px;
+  vertical-align: baseline;
+}
+#foot form {
+  margin-bottom: 20px;
+}
+.social {
+  margin: 5px;
+  height: 30px;
+}
+.ran {
+  text-decoration: none;
+}
+.main {
+  color: cyan;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.conbot {
+  display: flex;
+  width: 100%;
+}
+.btns {
+  width: 50px;
+}
+.consub {
+  width: 100%;
+  margin: 0;
+}
+.subs {
+  display: flex;
+  width: 100%;
+}
+.consin {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 992px) {
+  #mainnav .blk {
+    background-color: black;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .congrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #contact {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .conste {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    width: 100%;
+  }
+  .container3 {
+    flex-direction: column;
+  }
+  #foot p {
+    font-size: 0.7rem;
+  }
+  .consin {
+    display: flex;
+    flex-direction: column;
+  }
+  .textcon {
+    display: none;
+  }
+  .constor {
+    justify-content: center;
+  }
+  .conall {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: auto;
+    justify-content: center;
+  }
+  #foot {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .conbot {
+    display: flex;
+    flex-direction: column;
+  }
+  .conform {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 1%;
+    justify-content: center;
+  }
+  .conimg {
+    display: flex;
+    flex-direction: column;
+  }
+}
